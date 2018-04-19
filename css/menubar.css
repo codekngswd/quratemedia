@@ -1,0 +1,74 @@
+/*
+Author: LeQuan Ly, Asha Sheikh
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to the Menu Bar. 
+*/
+
+/* Icon Properties */
+.icon-menu-white {
+	background: url("../images/icons/menu_white.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+.icon-menu-black {
+	background: url("../images/icons/menu_black.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+.icon-logo-white {
+	background: url("../images/icons/logo_white.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+.icon-logo-black {
+	background: url("../images/icons/logo_black.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+
+.icon-user-white {
+	background: url("../images/icons/user_white.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+.icon-user-black {
+	background: url("../images/icons/user_black.svg");
+	height: 5vh;
+	width: 5vw;
+	background-size: 5vw 5vh;
+	display: block;
+}
+
+#menuBar {
+	position: relative;
+}
+
+#menuBar a {
+	display: inline-block;
+	margin-top: 2vh;
+	margin-left: 1vw;
+}
+
+#menuBar #logoIcon {
+	margin-left: 40vw;
+}
+
+#menuBar #userIcon {
+	margin-left: 40vw;
+}

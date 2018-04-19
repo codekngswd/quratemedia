@@ -1,0 +1,291 @@
+/*
+Author: LeQuan Ly, Asha Sheikh
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to Index.HTML
+*/
+
+/* Global Properties */
+html {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-size: 2vh;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+}
+
+/* Button Properties */
+#launchSoonButton {
+	background-color: #FFF;
+	border: solid #FFF;
+	padding: 5px;
+	width: 10vw;
+	border-radius: 4px;
+	margin-top: 5vh;
+	
+	/* Text Properties */
+	color: #000;
+}
+
+#registerButton {
+	background-color: transparent;
+	border: solid;
+	padding: 5px;
+	width: 10vw;
+	border-radius: 4px;
+	margin-top: 5vh;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+/* Page One */
+#pageOne {
+	position: relative;
+	
+	background: url('../images/beach.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#pageOneCaption {
+	position: absolute;
+	
+	top: 25vh;
+	left: 15vh;
+	
+	width: 50vw;
+	height: 30vh;
+	
+	/* Text Properties */
+	color: #FFF;	
+}
+
+#pageOneCaption h1 {
+	font-size: 7vh;
+}
+
+#pageOneCaption p {
+	margin-top: 5vh;
+}
+
+/* Page Two */
+#pageTwo {
+	position: relative;
+	
+	background: url('../images/horizon.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#pageTwoCaption {
+	position: absolute;
+	
+	top: 50vh;
+	left: 10vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	background-color: #FFF;
+	padding: 3vw;
+}
+
+#pageTwoCaption p {
+	text-align: justify;
+}
+
+/*Page Three */
+#pageThree {
+	position: relative;
+	
+	background: url('../images/flower.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#pageThreeCaption {
+	position: absolute;
+	
+	top: 15vh;
+	right: 0vw;
+	
+	width: 50vw;
+	height: 30vh;
+	
+	background-color: #FFF;
+	padding: 3vw;
+}
+
+#pageThreeCaption p {
+	text-align: justify;
+}
+
+/* Page Four */
+#pageFour {
+	position: relative;
+	
+	background: url('../images/ship.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#pageFourCaption {
+	position: absolute;
+	
+	top: 15vh;
+	left: 0vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	background-color: #FFF;
+	padding: 3vw;
+}
+
+#pageFourCaption p {
+	text-align: justify;
+}
+
+/* Page Five */
+#pageFive  {
+	position: relative;
+	
+	background: url('../images/island.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#pageFiveCaption {
+	position: absolute;
+	
+	top: 50vh;
+	left: 40vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	background-color: #FFF;
+	padding: 3vw;
+}
+
+#pageFiveCaption p {
+	text-align: justify;
+}
+
+/* Page Six */
+#pageSix {
+	position: relative;
+	
+	background: url('../images/blossom.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+#pageSixTitle {
+	margin: auto;
+	padding-top: 3vh;
+}
+
+#pageSixTitle tr {
+	margin: 0;
+}
+
+#pageSixTitle h1 {
+	margin: 0;
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+
+#pageSixCaption {
+	text-align: center;
+}
+
+#pageSixCaption p {
+	width: 70vw;
+	margin: auto;
+	padding-top: 5vh;
+}
+
+#pageSixCaption #registerButton {
+	margin-left: 2.5vw;
+}
+
+#footerContainer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+	background-color: #000;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+#footerWhite {
+	background-color: #FFF;
+	
+	/* Text Properties */
+	color: #000;
+}
+
+#footerWhite h1 {
+	margin-top: 0;
+	padding-top: 3vh;
+	
+	/* Text Properties */
+	text-align: center;
+}
+
+#footerWhite p {
+	width: 50vw;
+	margin: auto;
+	padding-bottom: 5vh;
+	
+	/* Text Properties */
+	text-align: center;
+}
+
+#footerContainer table {
+	margin-left: 12.5vw;
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+	
+	float: left;
+	
+	/* Text Properties */
+	text-align: left;
+}
+
+/* TESTING PURPOSES
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/

@@ -1,0 +1,29 @@
+/*
+Author: LeQuan Ly, Asha Sheikh
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to the Dotted Scroll Bar.
+*/
+
+/* Icon Properties */
+.icon-scroll-dot-black {
+	background: url("../images/icons/scroll_dot_black.svg");
+	height: 15px;
+	width: 15px;
+	background-size: 15px 15px;
+	display: block;
+}
+
+#scrollBar {
+	position: fixed;
+	left: 90vw;
+	top: 30vh;
+}
+
+#scrollBar ul {
+	list-style-type: none;
+}
+
+#scrollBar li {
+	margin-top: 5vh;
+}

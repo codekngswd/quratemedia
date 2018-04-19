@@ -1,0 +1,72 @@
+/*
+Author: LeQuan Ly, Asha Sheikh
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to the Sign Up Page.
+*/
+
+/* Global Properties */
+html {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-size: 2.5vh;
+}
+
+/* Content Properties */
+#textAlignCenter {
+	text-align: center;
+}
+
+#textAlignRight {
+	text-align: right;
+}
+
+#container {
+	margin: 0;
+	position: absolute;
+	width: 80vw;
+	top: 30vh;
+	left: 50vw;
+	margin-right: -50vw;
+	transform: translate(-50%, -30%);
+}
+
+table {
+	width: 80vw;
+	table-layout: fixed;
+}
+
+/* Sign Up Progress Bar */
+#signUpProgress {
+	margin-top: 5vh;
+}
+
+/* Sign Up Credentials */
+#signUpCredentials {
+	margin-top: 15vh;
+}
+
+#signUpCredentials table {
+	margin-top: 5vh;
+}
+
+#signUpCredentials input {
+	width: 35vw;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+/* Next Button */
+#nextButton {
+	background-color: #000;
+	width: 15vw;
+	padding: 1vw;
+	border: none;
+	border-radius: 4px;
+	
+	margin: auto;
+	margin-top: 10vh;
+	display: block;
+	
+	/* Text Properties */
+	color: #FFF;
+}
