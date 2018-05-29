@@ -1,5 +1,5 @@
 /*
-Author: LeQuan Ly, Asha Sheikh
+Author: LeQuan Ly
 Copyright: codekngswd 2018, QurateMedia 2018
 
 This CSS File is dedicated to the Dotted Scroll Bar.
@@ -18,6 +18,13 @@ This CSS File is dedicated to the Dotted Scroll Bar.
 	position: fixed;
 	left: 90vw;
 	top: 30vh;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#scrollBar {
+		left: 80vw;
+		top: 25vh;
+	}
 }
 
 #scrollBar ul {

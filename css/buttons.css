@@ -1,0 +1,25 @@
+/*
+Author: LeQuan Ly
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to index.HTML
+*/
+
+#signUpButton {
+	background-color: transparent;
+	border: solid;
+	padding: 5px;
+	width: 10vw;
+	border-radius: 4px;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#signUpButton {
+	padding: 2.5%;
+	width: 40vw;
+	border-radius: 5px;
+	}
+}

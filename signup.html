@@ -1,5 +1,5 @@
 <!--
-Author: LeQuan Ly, Asha Sheikh
+Author: LeQuan Ly
 Copyright: codekngswd 2018, QurateMedia 2018
 -->
 
@@ -10,16 +10,20 @@ Copyright: codekngswd 2018, QurateMedia 2018
     	<title>QurateMe</title>
         
         <!-- QurateMedia External Files -->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		
 		<link rel="stylesheet" type="text/css" href="css/signup.css" />
 		<link rel="stylesheet" type="text/css" href="css/menubar.css" />
+		
+		<!-- External JavaScript Files -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet"> 
     </head>
 	
 	<body>
 		<!-- Menu Bar -->
 		<div id="menuBar">
-			<a href="" class="icon-menu-black" target="blank"></a>
+			<a class="icon-menu-black"></a>
 			<a class="icon-logo-black" id="logoIcon"></a>
-			<a href="" class="icon-user-black" id="userIcon" target="blank"></a>
 		</div>
 		
 		<div id="container">
@@ -27,16 +31,13 @@ Copyright: codekngswd 2018, QurateMedia 2018
 			<table>
 				<tr>
 					<td><h1>Sign Up</h1></td>
-					<td id="textAlignRight"><p>Already have an account? <a href="">Sign In</a></p></td>
 				</tr>
 			</table>
 			
 			<!-- Sign Up Progress Bar -->
 			<table id="signUpProgress">
 				<tr>
-					<td><p>1) Account Info Personal</p></td>
-					<td><p id="textAlignCenter">2) Personal Info</p></td>
-					<td><p id="textAlignRight">3) User Profile</p></td>
+					<td><p>Account Information</p></td>
 				</tr>
 			</table>
 			
@@ -71,7 +72,7 @@ Copyright: codekngswd 2018, QurateMedia 2018
 				</table>
 			</div>
 			
-			<input id="nextButton" type="submit" value="Next">
+			<input id="submitButton" type="submit" value="Submit">
 		</div>
 		<!-- END -->
 	</body>

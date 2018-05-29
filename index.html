@@ -1,5 +1,5 @@
 <!--
-Author: LeQuan Ly, Asha Sheikh
+Author: LeQuan Ly
 Copyright: codekngswd 2018, QurateMedia 2018
 -->
 
@@ -13,28 +13,30 @@ Copyright: codekngswd 2018, QurateMedia 2018
         
         <!-- QurateMedia CSS Files -->
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
 		<link rel="stylesheet" type="text/css" href="css/menubar.css" />
 		<link rel="stylesheet" type="text/css" href="css/scrollbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		
 		<link rel="stylesheet" type="text/css" href="css/register.css" />
 		
 		<!-- QurateMedia JavaScript Files -->
 		<script type="text/javascript" src="js/registerScript.js"></script>
+		
+		<!-- External JavaScript Files -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet"> 
     </head>
 
     <body>
 		<!-- Page One -->
-		<div id="pageOne">
-			<!-- Menu Bar -->
-			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
-			</div>
-			
+		<div id="pageOne">			
 			<!-- Content -->
 			<div id="pageOneCaption">
 				<h1>A networking platform that puts creativity first.</h1>
-				<p>Register your email to get updates on launch & beta testing</p>
-				<button id="launchSoonButton"> Launching Soon</button>
-				<button id="registerButton" onClick="showRegisterPopup()">Register</button>
+				<p>Sign up to get updates on launch & beta testing</p>
+
+				<a id="signUpButton" href="signup.html">Sign Up</a>
 			</div>
 		</div>
 		
@@ -42,9 +44,8 @@ Copyright: codekngswd 2018, QurateMedia 2018
 		<div id="pageTwo">
 			<!-- Menu Bar -->
 			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
+				<a class="icon-menu-white"></a>
 				<a class="icon-logo-white" id="logoIcon"></a>
-				<a href="" class="icon-user-white" id="userIcon" target="blank"></a>
 			</div>
 			
 			<!-- Content -->
@@ -58,9 +59,8 @@ Copyright: codekngswd 2018, QurateMedia 2018
 		<div id="pageThree">
 			<!-- Menu Bar -->
 			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
+				<a class="icon-menu-white"></a>
 				<a class="icon-logo-white" id="logoIcon"></a>
-				<a href="" class="icon-user-white" id="userIcon" target="blank"></a>
 			</div>
 			
 			<!-- Content -->
@@ -74,9 +74,8 @@ Copyright: codekngswd 2018, QurateMedia 2018
 		<div id="pageFour">
 			<!-- Menu Bar -->
 			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
+				<a class="icon-menu-white"></a>
 				<a class="icon-logo-white" id="logoIcon"></a>
-				<a href="" class="icon-user-white" id="userIcon" target="blank"></a>
 			</div>
 			
 			<!-- Content -->
@@ -86,32 +85,30 @@ Copyright: codekngswd 2018, QurateMedia 2018
 			</div>
 		</div>
 		
-    	<!-- Page Five -->
-    	<div id="pageFive">
+		<!-- Page Five -->
+		<div id="pageFive">
 			<!-- Menu Bar -->
 			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
+				<a class="icon-menu-white"></a>
 				<a class="icon-logo-white" id="logoIcon"></a>
-				<a href="" class="icon-user-white" id="userIcon" target="blank"></a>
 			</div>
 			
 			<!-- Content -->
-        	<div id="pageFiveCaption">
-            	<h1>Curate</h1>
-            	<p>Show the world what you're about, what you stand for, what your passions
-                are. What drives your day and makes you tick. QurateMe is about furthering
-                that experience through a sense of community. QurateMe is as much about
-                you as an individual as it is about you as a collective unit.</p>
-            </div>
-        </div>
-        
+			<div id="pageFiveCaption">
+				<h1>Curate</h1>
+				<p>Show the world what you're about, what you stand for, what your passions
+				are. What drives your day and makes you tick. QurateMe is about furthering
+				that experience through a sense of community. QurateMe is as much about
+				you as an individual as it is about you as a collective unit.</p>
+			</div>
+		</div>
+		
 		<!-- Page Six -->
-        <div id="pageSix">
+		<div id="pageSix">
 			<!-- Menu Bar -->
 			<div id="menuBar">
-				<a href="" class="icon-menu-white" target="blank"></a>
+				<a class="icon-menu-white"></a>
 				<a class="icon-logo-white" id="logoIcon"></a>
-				<a href="" class="icon-user-white" id="userIcon" target="blank"></a>
 			</div>
 			
 			<!-- Content -->
@@ -130,49 +127,32 @@ Copyright: codekngswd 2018, QurateMedia 2018
 					aesthetically pleasing manner. We achieve this with a clean user interface, designed in a minimalist fashion that
 					highlights your creations in their full glory.</p>
 					
-					<button id="launchSoonButton">Launching Soon</button>
-					<button id="registerButton" onClick="showRegisterPopup()">Register</button>
+					<a id="signUpButton" href="signup.html">Sign Up</a>
 				</div>
 			</div>
-            
+			
 			<!-- Footer -->
-            <footer id="footerContainer">
+			<footer id="footerContainer">
 				<div id="footerWhite">
 					<h1>Excepteur occaeuiecat cupidatat.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 				</div>
 				
-					<table>
+					<table id="social">
 						<tr>
-							<td>About Us</td>
-							<td>Facebook</td>
+							<td>Instagram</td>
 						</tr>
 						
 						<tr>
-							<td>Contact</td>
 							<td>Twitter</td>
 						</tr>
 						
 						<tr>
-							<td>Instagram</td>
-							<td>Terms & Conditions</td>
+							<td>Facebook</td>
 						</tr>
 					</table>
 					
-					<table>
-						<tr>
-							<td>Subscribe to our newsletter</td>
-						</tr>
-						
-						<tr>
-							<td>
-								<input type="text" name="email" placeholder="Email Address" />
-								<button>OK</button>
-							</td>
-						</tr>
-					</table>
-					
-					<table>
+					<table id="contact">
 						<tr>
 							<td>Address</td>
 						</tr>
@@ -185,8 +165,18 @@ Copyright: codekngswd 2018, QurateMedia 2018
 							<td>Email Address</td>
 						</tr>
 					</table>
+					
+					<table id="legal">
+						<tr>
+							<td>About Us</td>
+						</tr>
+						
+						<tr>
+							<td>Terms & Conditions</td>
+						</tr>
+					</table>
 			</footer>
-        </div>
+		</div>
 		<!-- END -->
 		
 		<!-- Fixed Scrollbar -->
@@ -200,21 +190,5 @@ Copyright: codekngswd 2018, QurateMedia 2018
 				<li><a class="icon-scroll-dot-black" href="#pageSix"></a></li>
 			</ul>
 		</nav>
-		
-		<!-- Register Modal -->
-		<div id="registerContainer" class="registerPopupContainer">
-		<!-- Register Popup Content -->
-			<div class="registerPopupContent">
-				<h1>Register</h1>
-					
-				<p>Name</p>
-				<input type="text" name="name" /><br>
-					
-				<p>Email</p>
-				<input type="text" name="email" /><br>
-					
-				<button id="submitRegistration" onClick="">Register</button>
-			</div>
-		</div>
     </body>
 </html>

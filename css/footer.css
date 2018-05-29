@@ -1,0 +1,77 @@
+/*
+Author: LeQuan Ly
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to index.HTML
+*/
+
+#footerContainer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+	background-color: #000;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+#footerWhite {
+	background-color: #FFF;
+	
+	/* Text Properties */
+	color: #000;
+}
+
+#footerWhite h1 {
+	margin-top: 0;
+	padding-top: 3vh;
+	
+	/* Text Properties */
+	text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#footerWhite h1 {
+		padding-top: 1.5vh;
+	}
+}
+
+#footerWhite p {
+	width: 50vw;
+	margin: auto;
+	padding-bottom: 5vh;
+	
+	/* Text Properties */
+	text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 736px) {
+	#footerWhite p {
+		width: 80vw;
+		padding-bottom: 1.5vh;
+	}
+}
+
+#footerContainer table {
+	padding-top: 1vh;
+	
+	float: left;
+	
+	/* Text Properties */
+	text-align: left;
+}
+
+#footerContainer #social {
+	width: 33vw;
+}
+
+#footerContainer #contact {
+	width: 32vw;
+	text-align: center;
+}
+
+#footerContainer #legal {
+	width: 33vw;
+	text-align: right;
+}

@@ -1,0 +1,347 @@
+/*
+Author: LeQuan Ly
+Copyright: codekngswd 2018, QurateMedia 2018
+
+This CSS File is dedicated to index.HTML
+*/
+
+/* Page One */
+#pageOne {
+	position: relative;
+	
+	background: url('../images/desktop/beach.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	height: 100vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageOne {
+		background: url('../images/mobile/beach.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageOneCaption {
+	position: absolute;
+	
+	top: 25vh;
+	left: 15vh;
+	
+	width: 50vw;
+	height: 30vh;
+	
+	/* Text Properties */
+	color: rgb(255, 255, 255);	
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageOneCaption {
+		top: 25vh;
+		left: 5vh;
+	
+		width: 75vw;
+		height: 45vh;
+	}
+}
+
+#pageOneCaption h1 {
+	font-size: 7vh;
+}
+
+
+@media (max-height: 736px) {
+	#pageOneCaption h1 {
+		font-size: 5vh;
+	}
+}
+
+#pageOneCaption p {
+	margin-top: 5vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageOneCaption p {
+		margin-top: 0vh;
+		margin-bottom: 1.5vh;
+	}
+}
+
+/* Page Two */
+#pageTwo {
+	position: relative;
+	
+	background: url('../images/desktop/horizon.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageTwo {
+		background: url('../images/mobile/horizon.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageTwoCaption {
+	position: absolute;
+	
+	top: 50vh;
+	left: 10vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	padding: 5vw;
+	
+	border-radius: 1%;
+	background-color: rgb(245, 245, 245);
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageTwoCaption {
+		width: 60vw;
+		height: 30vh;
+		
+		box-shadow: 1vh 1vh 1vh rgb(205, 201, 201);
+	}
+}
+
+#pageTwoCaption p {
+	text-align: justify;
+}
+
+/*Page Three */
+#pageThree {
+	position: relative;
+	
+	background: url('../images/desktop/flower.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageThree {
+		background: url('../images/mobile/flower.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageThreeCaption {
+	position: absolute;
+	
+	top: 10vh;
+	right: 15vw;
+	
+	width: 50vw;
+	height: 30vh;
+	
+	padding: 5vw;
+	
+	border-radius: 1%;
+	
+	background-color: rgb(245, 245, 245);
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageThreeCaption {
+		width: 60vw;
+		height: 30vh;
+		
+		box-shadow: 1vh 1vh 1vh rgb(205, 201, 201);
+	}
+}
+
+#pageThreeCaption p {
+	text-align: justify;
+}
+
+/* Page Four */
+#pageFour {
+	position: relative;
+	
+	background: url('../images/desktop/ship.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageFour {
+		background: url('../images/mobile/ship.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageFourCaption {
+	position: absolute;
+	
+	top: 15vh;
+	left: 0vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	padding: 5vw;
+	
+	border-radius: 1%;
+	
+	background-color: rgb(245, 245, 245);
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageFourCaption {
+		width: 60vw;
+		height: 35vh;
+		
+		box-shadow: 1vh 1vh 1vh rgb(205, 201, 201);
+	}
+}
+
+#pageFourCaption p {
+	text-align: justify;
+}
+
+/* Page Five */
+#pageFive  {
+	position: relative;
+	
+	background: url('../images/desktop/island.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageFive {
+		background: url('../images/mobile/island.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageFiveCaption {
+	position: absolute;
+	
+	top: 50vh;
+	left: 40vw;
+	
+	width: 45vw;
+	height: 30vh;
+	
+	padding: 5vw;
+	
+	border-radius: 1%;
+	
+	background-color: rgb(245, 245, 245);	
+}
+
+@media screen and (min-height: 0px) and (max-width: 736px) {
+	#pageFiveCaption {
+		top: 50vh;
+		left: 25vw;
+		
+		width: 60vw;
+		height: 40vh;
+		
+		box-shadow: 1vh 1vh 1vh rgb(205, 201, 201);
+	}
+}
+
+#pageFiveCaption p {
+	text-align: justify;
+}
+
+/* Page Six */
+#pageSix {
+	position: relative;
+	
+	background: url('../images/desktop/blossom.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	
+	/* Text Properties */
+	color: #FFF;
+}
+
+@media screen and (min-height: 0px) and (max-height: 736px) {
+	#pageSix{
+		background: url('../images/mobile/blossom.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+#pageSixTitle {
+	margin: auto;
+	margin-top: 3vh;
+}
+
+@media screen and (min-height: 0px) and (max-height: 736px) {
+	#pageSixTitle {
+		margin-top: 0vh;
+	}
+}
+
+#pageSixTitle tr {
+	margin: 0;
+}
+
+#pageSixTitle h1 {
+	margin: 0;
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+
+@media screen and (min-height: 0px) and (max-height: 736px) {
+	#pageSixTitle h1 {
+		padding-right: 2.5vw;
+		padding-left: 2.5vw;
+	}
+}
+
+#pageSixCaption {
+	text-align: center;
+}
+
+@media screen and (min-height: 0px) and (max-height: 736px) {
+	#pageSixCaption {
+		margin: auto auto;
+		width: 80vw;
+	}
+}
+
+#pageSixCaption p {
+	width: 70vw;
+	margin: auto;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+@media screen and (min-height: 0px) and (max-height: 736px) {
+	#pageSixCaption p {
+		width: 80vw;
+		margin-top: 1.5vh;
+		margin-bottom: 2vh;
+	}
+}
