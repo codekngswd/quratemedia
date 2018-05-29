@@ -54,23 +54,25 @@ This CSS File is dedicated to the Menu Bar.
 	position: relative;
 }
 
-#menuBar a {
+#menuBar #menuIcon {
 	margin-top: 2vh;
 }
 
 @media screen and (min-height: 0px) and (max-height: 736px) {
-	#menuBar a {
+	#menuBar #menuIcon {
 		margin-top: 0vh;
 		margin-left: 1.5vw;
 	}
 }
 
 #menuBar #logoIcon {
+	margin-top: 2vh;
 	float: right;
 }
 
 @media screen and (min-height: 0px) and (max-height: 736px) {
 	#menuBar #logoIcon {
+		margin-top: 0vh;
 		margin-right: 1.5vw;
 	}
 }
