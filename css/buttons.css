@@ -11,9 +11,13 @@ This CSS File is dedicated to index.HTML
 	padding: 5px;
 	width: 10vw;
 	border-radius: 4px;
+
+	display: inline-block;
 	
 	/* Text Properties */
-	color: #FFF;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-align: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 736px) {
