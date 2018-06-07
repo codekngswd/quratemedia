@@ -6,7 +6,7 @@ This CSS File is dedicated to the Dotted Scroll Bar.
 */
 
 /* Icon Properties */
-.icon-scroll-dot-black {
+.icon-scroll-dot {
 	background: url("../images/icons/scroll_dot_black.svg");
 	height: 15px;
 	width: 15px;
